@@ -12,5 +12,4 @@ export class AppendRoutes extends CommonRoutesConfig {
   configureRoutes() {
     this.router.get('/', appendRouteParams);
   }
-
 }

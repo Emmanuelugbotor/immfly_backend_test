@@ -1,7 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import { catchAsync } from '../../common';
 import CountryClient from '../../services/country';
-import { IAppendParams, } from '../../interface/countries';
 
 class AppendRouteController {
   appendRouteParams

@@ -1,7 +1,7 @@
 import { configureExpress, configureRoutes } from './app/config';
 
 const PORT = process.env.PORT
- 
+
 const initializeApp = () => {
 
   const app = configureExpress();
